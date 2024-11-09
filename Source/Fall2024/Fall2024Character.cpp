@@ -42,6 +42,8 @@ void AFall2024Character::BeginPlay()
 {
 	// Call the base class  
 	Super::BeginPlay();
+
+	GetCapsuleComponent()->SetSimulatePhysics(false);
 }
 
 //////////////////////////////////////////////////////////////////////////// Input
